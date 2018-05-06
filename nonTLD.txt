@@ -1,0 +1,3 @@
+Correctness: 0.2407
+Average Confidence (Correct): 8.031148479084587
+Average Confidence (Incorrect): 3.9887559071347103
