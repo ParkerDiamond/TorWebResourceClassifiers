@@ -33,7 +33,7 @@ def svm_classify(datafile):
     print("split data into training and testing datasets is done")
     print("training set has %d rows; testing set has %d rows" % (len(train_f), len(test_f)))
 
-    # clf = svm.SVC()
+    # clf = svm.LinearSVC()
     # clf = RandomForestClassifier()
     clf = MLPClassifier()
     clf.fit(train_f, train_l)
